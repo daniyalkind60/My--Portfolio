@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniyal Ali | Web Developer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #000428, #004e92);
+      color: white;
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .fade-up {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: slideUp 1s ease-out forwards;
+    }
+
+    @keyframes slideUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    header {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+
+    .chatgpt-note {
+      font-size: 0.95rem;
+      color: #00e5ff;
+      margin-top: 10px;
+      font-style: italic;
+      animation: fadeIn 2s ease-out;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      border-left: 4px solid #00e5ff;
+      padding-left: 15px;
+      margin-bottom: 20px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background-color: #ffffff11;
+      padding: 10px 15px;
+      margin: 10px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .skills span:hover {
+      background-color: #ffffff22;
+      transform: scale(1.05);
+    }
+
+    .projects a {
+      display: block;
+      background-color: #ffffff11;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      color: #00e5ff;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .projects a:hover {
+      background-color: #ffffff22;
+      transform: translateX(10px);
+    }
+
+    .contact p {
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background-color: rgba(255,255,255,0.05);
+      margin-top: 30px;
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      header p, .contact p { font-size: 1rem; }
+      section { padding: 20px 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="fade-up">
+    <h1>Daniyal Ali</h1>
+    <p>14-year-old Web Developer | Class 9 | GitHub Page Expert</p>
+    <div class="chatgpt-note">🧠 This entire website code was written with the help of ChatGPT.</div>
+  </header>
+
+  <section class="skills fade-up">
+    <h2>Skills</h2>
+    <span>HTML5</span>
+    <span>CSS3</span>
+    <span>JavaScript</span>
+    <span>GitHub Page Deployment</span>
+    <span>Responsive Web Design</span>
+  </section>
+
+  <section class="projects fade-up">
+    <h2>Projects</h2>
+    <a href="https://daniyalkind60.github.io/E-COMMERS-WEBSITE/" target="_blank">
+      E-Commerce Website 1
+    </a>
+    <a href="https://daniyalkind60.github.io/DANIYAL-E-COMMERS-STORE/" target="_blank">
+      E-Commerce Website 2
+    </a>
+  </section>
+
+  <section class="contact fade-up">
+    <h2>Contact</h2>
+    <p>Email: daniyaldone301@gmail.com</p>
+    <p>Location: Quaid Azam Industrial State, Lahore</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Daniyal Ali. All rights reserved.
+  </footer>
+</body>
+</html>
